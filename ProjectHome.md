@@ -1,0 +1,1 @@
+sequence learning package with multi-classification
