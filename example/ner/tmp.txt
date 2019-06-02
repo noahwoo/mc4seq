@@ -1,0 +1,247 @@
+CRF++: Yet Another CRF Tool Kit
+Copyright (C) 2005-2009 Taku Kudo, All rights reserved.
+
+reading training data: 
+Done!0.18 s
+
+Number of sentences: 85
+Number of features:  28724
+Number of thread(s): 1
+Freq:                1
+eta:                 0.00010
+C:                   4.00000
+dump:                0
+shrinking size:      20
+Number of sample: 1802
+Size of dimension: 28724
+Size of tags: 10
+Initialize cache complete with maximum columns: 58188. 
+Initialize kernel complete. 
+allocate space complete for #sample=1802, #dim=28724, #tag=10, nsp=20.
+init with nin = 17, nout = 1785. 
+initialization complete.
+===== Iteration 0 =====
+subqp scale 17, inner iteration 0.
+violation: 31.53096332
+update working set with nc=10, nsp=17
+===== Iteration 1 =====
+subqp scale 17, inner iteration 0.
+violation: 8.76233336
+update working set with nc=10, nsp=17
+===== Iteration 2 =====
+subqp scale 20, inner iteration 0.
+violation: 27.16217814
+update working set with nc=10, nsp=20
+===== Iteration 3 =====
+subqp scale 20, inner iteration 0.
+violation: 44.99922513
+update working set with nc=10, nsp=20
+===== Iteration 4 =====
+subqp scale 20, inner iteration 0.
+violation: 24.73309833
+update working set with nc=10, nsp=20
+===== Iteration 5 =====
+subqp scale 20, inner iteration 0.
+violation: 35.20965341
+update working set with nc=10, nsp=20
+===== Iteration 6 =====
+subqp scale 20, inner iteration 0.
+violation: 40.96984803
+update working set with nc=10, nsp=20
+===== Iteration 7 =====
+subqp scale 20, inner iteration 0.
+violation: 58.59317875
+update working set with nc=10, nsp=20
+===== Iteration 8 =====
+subqp scale 20, inner iteration 0.
+violation: 47.45259726
+update working set with nc=10, nsp=20
+===== Iteration 9 =====
+subqp scale 20, inner iteration 0.
+violation: 29.99911696
+update working set with nc=10, nsp=20
+===== Iteration 10 =====
+subqp scale 20, inner iteration 0.
+violation: 31.58799815
+update working set with nc=10, nsp=20
+===== Iteration 11 =====
+subqp scale 20, inner iteration 0.
+violation: 44.34577646
+update working set with nc=10, nsp=20
+===== Iteration 12 =====
+subqp scale 20, inner iteration 0.
+violation: 25.69359438
+update working set with nc=10, nsp=20
+===== Iteration 13 =====
+subqp scale 20, inner iteration 0.
+violation: 29.46700443
+update working set with nc=10, nsp=20
+===== Iteration 14 =====
+subqp scale 20, inner iteration 0.
+violation: 26.36324204
+update working set with nc=10, nsp=20
+===== Iteration 15 =====
+subqp scale 20, inner iteration 0.
+violation: 30.95811493
+update working set with nc=10, nsp=20
+===== Iteration 16 =====
+subqp scale 20, inner iteration 0.
+violation: 33.28720883
+update working set with nc=10, nsp=20
+===== Iteration 17 =====
+subqp scale 20, inner iteration 0.
+violation: 36.04213743
+update working set with nc=10, nsp=20
+===== Iteration 18 =====
+subqp scale 20, inner iteration 0.
+violation: 35.37317228
+update working set with nc=10, nsp=20
+===== Iteration 19 =====
+subqp scale 20, inner iteration 0.
+violation: 31.60260539
+update working set with nc=10, nsp=20
+===== Iteration 20 =====
+subqp scale 20, inner iteration 0.
+violation: 29.53539765
+update working set with nc=10, nsp=20
+===== Iteration 21 =====
+subqp scale 20, inner iteration 0.
+violation: 27.59717028
+update working set with nc=10, nsp=20
+===== Iteration 22 =====
+subqp scale 20, inner iteration 0.
+violation: 31.35474230
+update working set with nc=10, nsp=20
+===== Iteration 23 =====
+subqp scale 20, inner iteration 0.
+violation: 29.93290961
+update working set with nc=10, nsp=20
+===== Iteration 24 =====
+subqp scale 20, inner iteration 0.
+violation: 40.71950578
+update working set with nc=10, nsp=20
+===== Iteration 25 =====
+subqp scale 20, inner iteration 0.
+violation: 29.87064634
+update working set with nc=10, nsp=20
+===== Iteration 26 =====
+subqp scale 20, inner iteration 0.
+violation: 36.62222120
+update working set with nc=10, nsp=20
+===== Iteration 27 =====
+subqp scale 20, inner iteration 0.
+violation: 23.08981506
+update working set with nc=10, nsp=20
+===== Iteration 28 =====
+subqp scale 20, inner iteration 0.
+violation: 29.35474230
+update working set with nc=10, nsp=20
+===== Iteration 29 =====
+subqp scale 20, inner iteration 0.
+violation: 38.39206076
+update working set with nc=10, nsp=20
+===== Iteration 30 =====
+subqp scale 20, inner iteration 0.
+violation: 30.35474230
+update working set with nc=10, nsp=20
+===== Iteration 31 =====
+subqp scale 20, inner iteration 0.
+violation: 30.82538278
+update working set with nc=10, nsp=20
+===== Iteration 32 =====
+subqp scale 20, inner iteration 0.
+violation: 23.38808454
+update working set with nc=10, nsp=20
+===== Iteration 33 =====
+subqp scale 20, inner iteration 0.
+violation: 48.37014905
+update working set with nc=10, nsp=20
+===== Iteration 34 =====
+subqp scale 20, inner iteration 0.
+violation: 31.99391178
+update working set with nc=10, nsp=20
+===== Iteration 35 =====
+subqp scale 20, inner iteration 0.
+violation: 41.21772955
+update working set with nc=10, nsp=20
+===== Iteration 36 =====
+subqp scale 20, inner iteration 0.
+violation: 33.76068771
+update working set with nc=10, nsp=20
+===== Iteration 37 =====
+subqp scale 20, inner iteration 0.
+violation: 44.99921919
+update working set with nc=10, nsp=20
+===== Iteration 38 =====
+subqp scale 20, inner iteration 0.
+violation: 29.73447012
+update working set with nc=10, nsp=20
+===== Iteration 39 =====
+subqp scale 20, inner iteration 0.
+violation: 42.03444071
+update working set with nc=10, nsp=20
+===== Iteration 40 =====
+subqp scale 20, inner iteration 0.
+violation: 37.27222236
+update working set with nc=10, nsp=20
+===== Iteration 41 =====
+subqp scale 20, inner iteration 0.
+violation: 50.58173370
+update working set with nc=10, nsp=20
+===== Iteration 42 =====
+subqp scale 20, inner iteration 0.
+violation: 32.55308323
+update working set with nc=10, nsp=20
+===== Iteration 43 =====
+subqp scale 20, inner iteration 0.
+violation: 47.95117648
+update working set with nc=10, nsp=20
+===== Iteration 44 =====
+subqp scale 20, inner iteration 0.
+violation: 37.77985505
+update working set with nc=10, nsp=20
+===== Iteration 45 =====
+subqp scale 20, inner iteration 0.
+violation: 51.08574709
+update working set with nc=10, nsp=20
+===== Iteration 46 =====
+subqp scale 20, inner iteration 0.
+violation: 29.04173610
+update working set with nc=10, nsp=20
+===== Iteration 47 =====
+subqp scale 20, inner iteration 0.
+violation: 32.48849235
+update working set with nc=10, nsp=20
+===== Iteration 48 =====
+subqp scale 20, inner iteration 0.
+violation: 34.28901916
+update working set with nc=10, nsp=20
+===== Iteration 49 =====
+subqp scale 20, inner iteration 0.
+violation: 37.22886018
+update working set with nc=10, nsp=20
+===== Iteration 50 =====
+subqp scale 20, inner iteration 0.
+violation: 44.99999476
+update working set with nc=10, nsp=20
+===== Iteration 51 =====
+subqp scale 20, inner iteration 0.
+violation: 45.85979451
+update working set with nc=10, nsp=20
+===== Iteration 52 =====
+subqp scale 20, inner iteration 0.
+violation: 45.00000023
+update working set with nc=10, nsp=20
+===== Iteration 53 =====
+subqp scale 20, inner iteration 0.
+violation: 47.05383173
+update working set with nc=10, nsp=20
+===== Iteration 54 =====
+subqp scale 20, inner iteration 0.
+violation: 45.00000000
+update working set with nc=10, nsp=20
+===== Iteration 55 =====
+subqp scale 20, inner iteration 0.
+violation: 47.05383165
+update working set with nc=10, nsp=20
+Fail to improve the inner QP solution, please change the kernel or parameter.

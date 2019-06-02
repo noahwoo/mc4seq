@@ -1,0 +1,19 @@
+make  all-am
+make[1]: Entering directory `/home/noah/workspace/CRF++-0.53'
+/bin/bash ./libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.     -O3 -Wall -mieee-fp -c -o dasmc_train.lo `test -f 'dasmc/dasmc_train.cpp' || echo './'`dasmc/dasmc_train.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -O3 -Wall -mieee-fp -c dasmc/dasmc_train.cpp  -fPIC -DPIC -o .libs/dasmc_train.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -O3 -Wall -mieee-fp -c dasmc/dasmc_train.cpp -o dasmc_train.o >/dev/null 2>&1
+/bin/bash ./libtool --tag=CXX   --mode=link g++  -O3 -Wall -mieee-fp   -o libcrfpp.la -rpath /usr/local/lib libcrfpp.lo lbfgs.lo param.lo encoder.lo feature.lo feature_cache.lo feature_index.lo node.lo path.lo tagger.lo mc_sample.lo mc_common.lo pgqp.lo mem_util.lo dasmc_train.lo  -lpthread -lpthread -lm -lm -lm 
+libtool: link: rm -fr  .libs/libcrfpp.a .libs/libcrfpp.la .libs/libcrfpp.lai .libs/libcrfpp.so .libs/libcrfpp.so.0 .libs/libcrfpp.so.0.0.0
+libtool: link: g++ -shared -nostdlib /usr/lib/gcc/i486-linux-gnu/4.3.3/../../../../lib/crti.o /usr/lib/gcc/i486-linux-gnu/4.3.3/crtbeginS.o  .libs/libcrfpp.o .libs/lbfgs.o .libs/param.o .libs/encoder.o .libs/feature.o .libs/feature_cache.o .libs/feature_index.o .libs/node.o .libs/path.o .libs/tagger.o .libs/mc_sample.o .libs/mc_common.o .libs/pgqp.o .libs/mem_util.o .libs/dasmc_train.o   -lpthread -L/usr/lib/gcc/i486-linux-gnu/4.3.3 -L/usr/lib/gcc/i486-linux-gnu/4.3.3/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/i486-linux-gnu/4.3.3/../../.. -lstdc++ -lm -lc -lgcc_s /usr/lib/gcc/i486-linux-gnu/4.3.3/crtendS.o /usr/lib/gcc/i486-linux-gnu/4.3.3/../../../../lib/crtn.o  -mieee-fp   -Wl,-soname -Wl,libcrfpp.so.0 -o .libs/libcrfpp.so.0.0.0
+libtool: link: (cd ".libs" && rm -f "libcrfpp.so.0" && ln -s "libcrfpp.so.0.0.0" "libcrfpp.so.0")
+libtool: link: (cd ".libs" && rm -f "libcrfpp.so" && ln -s "libcrfpp.so.0.0.0" "libcrfpp.so")
+libtool: link: ar cru .libs/libcrfpp.a  libcrfpp.o lbfgs.o param.o encoder.o feature.o feature_cache.o feature_index.o node.o path.o tagger.o mc_sample.o mc_common.o pgqp.o mem_util.o dasmc_train.o
+libtool: link: ranlib .libs/libcrfpp.a
+libtool: link: ( cd ".libs" && rm -f "libcrfpp.la" && ln -s "../libcrfpp.la" "libcrfpp.la" )
+/bin/bash ./libtool --tag=CXX   --mode=link g++  -O3 -Wall -mieee-fp   -o crf_learn crf_learn.o libcrfpp.la -lpthread -lpthread -lm -lm -lm 
+libtool: link: g++ -O3 -Wall -mieee-fp -o .libs/crf_learn crf_learn.o  ./.libs/libcrfpp.so -lpthread -lm
+g++ -DHAVE_CONFIG_H -I.     -O3 -Wall -mieee-fp -c -o crf_test.o crf_test.cpp
+/bin/bash ./libtool --tag=CXX   --mode=link g++  -O3 -Wall -mieee-fp   -o crf_test crf_test.o libcrfpp.la  -lpthread -lpthread -lm -lm -lm 
+libtool: link: g++ -O3 -Wall -mieee-fp -o .libs/crf_test crf_test.o  ./.libs/libcrfpp.so -lpthread -lm
+make[1]: Leaving directory `/home/noah/workspace/CRF++-0.53'
